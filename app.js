@@ -1,9 +1,12 @@
+const path = require('path');
 const express = require('express');
 const multer = require('multer');
-const path = require('path');
-
+const port = process.env.PORT || 8080;
 const app = express();
-const port = 5000;
+
+process.env.PWD = process.cwd();
+
+app.use(express.static(process.env.PWD));
 
 // Set up Multer to handle file uploads
 const storage = multer.diskStorage({
@@ -17,6 +20,7 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
+
 
 
 app.get('/', (req, res) => {
@@ -36,3 +40,4 @@ app.post('/saved', upload.single('file'), (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
