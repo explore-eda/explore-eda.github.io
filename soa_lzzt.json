@@ -1,0 +1,363 @@
+{
+  "datasetJSONCreationDateTime": "2025-09-01T11:52:32Z",
+  "datasetJSONVersion": "1.1.0",
+  "itemGroupOID": "IG_SOATable01",
+  "records": 30,
+  "name": "SOA_DEMO",
+  "label": "Schedule of Activities Demo Dataset",
+  "columns": [
+    {
+      "itemOID": "ACTIVITY",
+      "name": "Activity",
+      "label": "Activity",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V1",
+      "name": "Visit_1_Week_-2",
+      "label": "Visit 1 (Week -2)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V2",
+      "name": "Visit_2_Week_-3",
+      "label": "Visit 2 (Week -3)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V3",
+      "name": "Visit_3_Week_0",
+      "label": "Visit 3 (Week 0)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V4",
+      "name": "Visit_4_Week_2",
+      "label": "Visit 4 (Week 2)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V5",
+      "name": "Visit_5_Week_4",
+      "label": "Visit 5 (Week 4)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V7",
+      "name": "Visit_7_Week_6",
+      "label": "Visit 7 (Week 6)",
+      "dataType": "string"
+    },
+    {
+      "itemOID": "V8",
+      "name": "Visit_8_Week_8",
+      "label": "Visit 8 (Week 8)",
+      "dataType": "string"
+    }
+  ],
+  "rows": [
+    [
+      "Informed consent",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Patient number assigned",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Hachinski \u22644",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "MMSE 10-23",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Physical examination",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Medical History",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Habits",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Chest x-ray",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Apo E genotyping",
+      ".",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Patient randomized",
+      ".",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Vital signs/Temperature",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Ambulatory ECG placed",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Ambulatory ECG removed",
+      ".",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "ECG",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ],
+    [
+      "Placebo TTS test",
+      ".",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "CT Scan (if not within last year and patient passes all other screens)",
+      "X",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Concomitant Medications",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ],
+    [
+      "Laboratory (Chem/Hemat):",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ],
+    [
+      "Laboratory (Urinalysis)",
+      "X",
+      ".",
+      "X",
+      ".",
+      ".",
+      ".",
+      "X"
+    ],
+    [
+      "Plasma Specimen (Xanomeline)",
+      ".",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "."
+    ],
+    [
+      "Hemoglobin A1C",
+      "Xa",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "Study drug record",
+      ".",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ],
+    [
+      "Medications dispensed",
+      ".",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ],
+    [
+      "Medications returned",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "TTS Acceptability Survey",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "ADAS-Cog",
+      ".",
+      "P",
+      "X",
+      ".",
+      ".",
+      ".",
+      "X"
+    ],
+    [
+      "CIBIC+",
+      ".",
+      "P",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "DAD",
+      ".",
+      "P",
+      "X",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "NPI-X",
+      ".",
+      "P",
+      "X",
+      ".",
+      ".",
+      ".",
+      "Xb"
+    ],
+    [
+      "Adverse events",
+      ".",
+      ".",
+      "X",
+      ".",
+      "X",
+      ".",
+      "X"
+    ]
+  ],
+  "originator": "Generated by ChatGPT",
+  "fileOID": "SOA_DEMO_FILEOID",
+  "studyOID": "STUDY_DEMO"
+}
